@@ -1,0 +1,230 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"Sim",
+				"SimpleRenderer"
+			],
+			[
+				"Simple",
+				"SimpleFillSymbol"
+			],
+			[
+				"Feature",
+				"FeatureLayer"
+			],
+			[
+				"li",
+				"link	Tag"
+			],
+			[
+				"st",
+				"style	Tag"
+			],
+			[
+				"g",
+				"getValue"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "puppies.htm",
+			"settings":
+			{
+				"buffer_size": 3894,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/lisasroughdrafts/Sites/arcGISPlayground/index.html",
+		"/Users/lisasroughdrafts/Desktop/GirlDevelopIt/github/notes.txt",
+		"/Users/lisasroughdrafts/Sites/dojoPlayground/amdTutorial/index.html",
+		"/Users/lisasroughdrafts/Sites/dojoPlayground/amdTutorial/app/counter.js",
+		"/Users/lisasroughdrafts/Sites/dojoPlayground/demo/myModule.js",
+		"/Users/lisasroughdrafts/Sites/dojoPlayground/app/counter.js",
+		"/Users/lisasroughdrafts/Sites/dojoPlayground/demo/start.html",
+		"/Users/lisasroughdrafts/Sites/dojoPlayground/demo/dojoReady.html",
+		"/Users/lisasroughdrafts/Sites/dojoPlayground/demo/slidingGreeting.html",
+		"/Users/lisasroughdrafts/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/lisasroughdrafts/Sites/html5foundations/index.html",
+		"/Users/lisasroughdrafts/Sites/html5foundations/joes-pizza/about.html",
+		"/Users/lisasroughdrafts/Sites/html5foundations/joes-pizza/index.html",
+		"/Users/lisasroughdrafts/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "puppies.htm",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3894,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1299,
+								1299
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"project": "lonestargsd.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"",
+				"index.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

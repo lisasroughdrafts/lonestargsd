@@ -1,0 +1,180 @@
+App.progressCountTotal = 22;
+App.progressCountCurrent = 0;
+fw.dismissBatchDialogWhenDone = true;
+doc = fw.openDocument('file:///F|/webcomputer/Sites/Lonestar/images/puppies/puppy1.gif');
+App.progressCountCurrent = 1;
+App.batchStatusString = 'puppy1.gif';
+if (!Files.exists('file:///F|/webcomputer/Sites/Lonestar/images/puppies/images/puppy1_gif.jpg') || confirm('file:///F|/webcomputer/Sites/Lonestar/images/puppies/images/puppy1_gif.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/webcomputer/Sites/Lonestar/images/puppies/images/puppy1_gif.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///F|/webcomputer/Sites/Lonestar/images/puppies/thumbnails/puppy1_gif.jpg') || confirm('file:///F|/webcomputer/Sites/Lonestar/images/puppies/thumbnails/puppy1_gif.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/webcomputer/Sites/Lonestar/images/puppies/thumbnails/puppy1_gif.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///F|/webcomputer/Sites/Lonestar/images/puppies/puppy2.gif');
+App.progressCountCurrent = 2;
+App.batchStatusString = 'puppy2.gif';
+if (!Files.exists('file:///F|/webcomputer/Sites/Lonestar/images/puppies/images/puppy2_gif.jpg') || confirm('file:///F|/webcomputer/Sites/Lonestar/images/puppies/images/puppy2_gif.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/webcomputer/Sites/Lonestar/images/puppies/images/puppy2_gif.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///F|/webcomputer/Sites/Lonestar/images/puppies/thumbnails/puppy2_gif.jpg') || confirm('file:///F|/webcomputer/Sites/Lonestar/images/puppies/thumbnails/puppy2_gif.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/webcomputer/Sites/Lonestar/images/puppies/thumbnails/puppy2_gif.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///F|/webcomputer/Sites/Lonestar/images/puppies/puppy3.gif');
+App.progressCountCurrent = 3;
+App.batchStatusString = 'puppy3.gif';
+if (!Files.exists('file:///F|/webcomputer/Sites/Lonestar/images/puppies/images/puppy3_gif.jpg') || confirm('file:///F|/webcomputer/Sites/Lonestar/images/puppies/images/puppy3_gif.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/webcomputer/Sites/Lonestar/images/puppies/images/puppy3_gif.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///F|/webcomputer/Sites/Lonestar/images/puppies/thumbnails/puppy3_gif.jpg') || confirm('file:///F|/webcomputer/Sites/Lonestar/images/puppies/thumbnails/puppy3_gif.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/webcomputer/Sites/Lonestar/images/puppies/thumbnails/puppy3_gif.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///F|/webcomputer/Sites/Lonestar/images/puppies/puppy4.jpg');
+App.progressCountCurrent = 4;
+App.batchStatusString = 'puppy4.jpg';
+if (!Files.exists('file:///F|/webcomputer/Sites/Lonestar/images/puppies/images/puppy4_jpg.jpg') || confirm('file:///F|/webcomputer/Sites/Lonestar/images/puppies/images/puppy4_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/webcomputer/Sites/Lonestar/images/puppies/images/puppy4_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///F|/webcomputer/Sites/Lonestar/images/puppies/thumbnails/puppy4_jpg.jpg') || confirm('file:///F|/webcomputer/Sites/Lonestar/images/puppies/thumbnails/puppy4_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/webcomputer/Sites/Lonestar/images/puppies/thumbnails/puppy4_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///F|/webcomputer/Sites/Lonestar/images/puppies/puppy5.gif');
+App.progressCountCurrent = 5;
+App.batchStatusString = 'puppy5.gif';
+if (!Files.exists('file:///F|/webcomputer/Sites/Lonestar/images/puppies/images/puppy5_gif.jpg') || confirm('file:///F|/webcomputer/Sites/Lonestar/images/puppies/images/puppy5_gif.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/webcomputer/Sites/Lonestar/images/puppies/images/puppy5_gif.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///F|/webcomputer/Sites/Lonestar/images/puppies/thumbnails/puppy5_gif.jpg') || confirm('file:///F|/webcomputer/Sites/Lonestar/images/puppies/thumbnails/puppy5_gif.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/webcomputer/Sites/Lonestar/images/puppies/thumbnails/puppy5_gif.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///F|/webcomputer/Sites/Lonestar/images/puppies/puppy6.gif');
+App.progressCountCurrent = 6;
+App.batchStatusString = 'puppy6.gif';
+if (!Files.exists('file:///F|/webcomputer/Sites/Lonestar/images/puppies/images/puppy6_gif.jpg') || confirm('file:///F|/webcomputer/Sites/Lonestar/images/puppies/images/puppy6_gif.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/webcomputer/Sites/Lonestar/images/puppies/images/puppy6_gif.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///F|/webcomputer/Sites/Lonestar/images/puppies/thumbnails/puppy6_gif.jpg') || confirm('file:///F|/webcomputer/Sites/Lonestar/images/puppies/thumbnails/puppy6_gif.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/webcomputer/Sites/Lonestar/images/puppies/thumbnails/puppy6_gif.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///F|/webcomputer/Sites/Lonestar/images/puppies/puppy7.jpg');
+App.progressCountCurrent = 7;
+App.batchStatusString = 'puppy7.jpg';
+if (!Files.exists('file:///F|/webcomputer/Sites/Lonestar/images/puppies/images/puppy7_jpg.jpg') || confirm('file:///F|/webcomputer/Sites/Lonestar/images/puppies/images/puppy7_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/webcomputer/Sites/Lonestar/images/puppies/images/puppy7_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///F|/webcomputer/Sites/Lonestar/images/puppies/thumbnails/puppy7_jpg.jpg') || confirm('file:///F|/webcomputer/Sites/Lonestar/images/puppies/thumbnails/puppy7_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/webcomputer/Sites/Lonestar/images/puppies/thumbnails/puppy7_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///F|/webcomputer/Sites/Lonestar/images/puppies/puppy8.gif');
+App.progressCountCurrent = 8;
+App.batchStatusString = 'puppy8.gif';
+if (!Files.exists('file:///F|/webcomputer/Sites/Lonestar/images/puppies/images/puppy8_gif.jpg') || confirm('file:///F|/webcomputer/Sites/Lonestar/images/puppies/images/puppy8_gif.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/webcomputer/Sites/Lonestar/images/puppies/images/puppy8_gif.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///F|/webcomputer/Sites/Lonestar/images/puppies/thumbnails/puppy8_gif.jpg') || confirm('file:///F|/webcomputer/Sites/Lonestar/images/puppies/thumbnails/puppy8_gif.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/webcomputer/Sites/Lonestar/images/puppies/thumbnails/puppy8_gif.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///F|/webcomputer/Sites/Lonestar/images/puppies/puppy9.gif');
+App.progressCountCurrent = 9;
+App.batchStatusString = 'puppy9.gif';
+if (!Files.exists('file:///F|/webcomputer/Sites/Lonestar/images/puppies/images/puppy9_gif.jpg') || confirm('file:///F|/webcomputer/Sites/Lonestar/images/puppies/images/puppy9_gif.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/webcomputer/Sites/Lonestar/images/puppies/images/puppy9_gif.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///F|/webcomputer/Sites/Lonestar/images/puppies/thumbnails/puppy9_gif.jpg') || confirm('file:///F|/webcomputer/Sites/Lonestar/images/puppies/thumbnails/puppy9_gif.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/webcomputer/Sites/Lonestar/images/puppies/thumbnails/puppy9_gif.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///F|/webcomputer/Sites/Lonestar/images/puppies/puppy10.gif');
+App.progressCountCurrent = 10;
+App.batchStatusString = 'puppy10.gif';
+if (!Files.exists('file:///F|/webcomputer/Sites/Lonestar/images/puppies/images/puppy10_gif.jpg') || confirm('file:///F|/webcomputer/Sites/Lonestar/images/puppies/images/puppy10_gif.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/webcomputer/Sites/Lonestar/images/puppies/images/puppy10_gif.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///F|/webcomputer/Sites/Lonestar/images/puppies/thumbnails/puppy10_gif.jpg') || confirm('file:///F|/webcomputer/Sites/Lonestar/images/puppies/thumbnails/puppy10_gif.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/webcomputer/Sites/Lonestar/images/puppies/thumbnails/puppy10_gif.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///F|/webcomputer/Sites/Lonestar/images/puppies/orangeboy1.gif');
+App.progressCountCurrent = 11;
+App.batchStatusString = 'orangeboy1.gif';
+if (!Files.exists('file:///F|/webcomputer/Sites/Lonestar/images/puppies/images/orangeboy1_gif.jpg') || confirm('file:///F|/webcomputer/Sites/Lonestar/images/puppies/images/orangeboy1_gif.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/webcomputer/Sites/Lonestar/images/puppies/images/orangeboy1_gif.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///F|/webcomputer/Sites/Lonestar/images/puppies/thumbnails/orangeboy1_gif.jpg') || confirm('file:///F|/webcomputer/Sites/Lonestar/images/puppies/thumbnails/orangeboy1_gif.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/webcomputer/Sites/Lonestar/images/puppies/thumbnails/orangeboy1_gif.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///F|/webcomputer/Sites/Lonestar/images/puppies/puppy0.gif');
+App.progressCountCurrent = 12;
+App.batchStatusString = 'puppy0.gif';
+if (!Files.exists('file:///F|/webcomputer/Sites/Lonestar/images/puppies/images/puppy0_gif.jpg') || confirm('file:///F|/webcomputer/Sites/Lonestar/images/puppies/images/puppy0_gif.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/webcomputer/Sites/Lonestar/images/puppies/images/puppy0_gif.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///F|/webcomputer/Sites/Lonestar/images/puppies/thumbnails/puppy0_gif.jpg') || confirm('file:///F|/webcomputer/Sites/Lonestar/images/puppies/thumbnails/puppy0_gif.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/webcomputer/Sites/Lonestar/images/puppies/thumbnails/puppy0_gif.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///F|/webcomputer/Sites/Lonestar/images/puppies/puppy11.gif');
+App.progressCountCurrent = 13;
+App.batchStatusString = 'puppy11.gif';
+if (!Files.exists('file:///F|/webcomputer/Sites/Lonestar/images/puppies/images/puppy11_gif.jpg') || confirm('file:///F|/webcomputer/Sites/Lonestar/images/puppies/images/puppy11_gif.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/webcomputer/Sites/Lonestar/images/puppies/images/puppy11_gif.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///F|/webcomputer/Sites/Lonestar/images/puppies/thumbnails/puppy11_gif.jpg') || confirm('file:///F|/webcomputer/Sites/Lonestar/images/puppies/thumbnails/puppy11_gif.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/webcomputer/Sites/Lonestar/images/puppies/thumbnails/puppy11_gif.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///F|/webcomputer/Sites/Lonestar/images/puppies/puppy12.gif');
+App.progressCountCurrent = 14;
+App.batchStatusString = 'puppy12.gif';
+if (!Files.exists('file:///F|/webcomputer/Sites/Lonestar/images/puppies/images/puppy12_gif.jpg') || confirm('file:///F|/webcomputer/Sites/Lonestar/images/puppies/images/puppy12_gif.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/webcomputer/Sites/Lonestar/images/puppies/images/puppy12_gif.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///F|/webcomputer/Sites/Lonestar/images/puppies/thumbnails/puppy12_gif.jpg') || confirm('file:///F|/webcomputer/Sites/Lonestar/images/puppies/thumbnails/puppy12_gif.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/webcomputer/Sites/Lonestar/images/puppies/thumbnails/puppy12_gif.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///F|/webcomputer/Sites/Lonestar/images/puppies/greenboy.gif');
+App.progressCountCurrent = 15;
+App.batchStatusString = 'greenboy.gif';
+if (!Files.exists('file:///F|/webcomputer/Sites/Lonestar/images/puppies/images/greenboy_gif.jpg') || confirm('file:///F|/webcomputer/Sites/Lonestar/images/puppies/images/greenboy_gif.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/webcomputer/Sites/Lonestar/images/puppies/images/greenboy_gif.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///F|/webcomputer/Sites/Lonestar/images/puppies/thumbnails/greenboy_gif.jpg') || confirm('file:///F|/webcomputer/Sites/Lonestar/images/puppies/thumbnails/greenboy_gif.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/webcomputer/Sites/Lonestar/images/puppies/thumbnails/greenboy_gif.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///F|/webcomputer/Sites/Lonestar/images/puppies/puppy13.gif');
+App.progressCountCurrent = 16;
+App.batchStatusString = 'puppy13.gif';
+if (!Files.exists('file:///F|/webcomputer/Sites/Lonestar/images/puppies/images/puppy13_gif.jpg') || confirm('file:///F|/webcomputer/Sites/Lonestar/images/puppies/images/puppy13_gif.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/webcomputer/Sites/Lonestar/images/puppies/images/puppy13_gif.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///F|/webcomputer/Sites/Lonestar/images/puppies/thumbnails/puppy13_gif.jpg') || confirm('file:///F|/webcomputer/Sites/Lonestar/images/puppies/thumbnails/puppy13_gif.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/webcomputer/Sites/Lonestar/images/puppies/thumbnails/puppy13_gif.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///F|/webcomputer/Sites/Lonestar/images/puppies/whitegirl.gif');
+App.progressCountCurrent = 17;
+App.batchStatusString = 'whitegirl.gif';
+if (!Files.exists('file:///F|/webcomputer/Sites/Lonestar/images/puppies/images/whitegirl_gif.jpg') || confirm('file:///F|/webcomputer/Sites/Lonestar/images/puppies/images/whitegirl_gif.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/webcomputer/Sites/Lonestar/images/puppies/images/whitegirl_gif.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///F|/webcomputer/Sites/Lonestar/images/puppies/thumbnails/whitegirl_gif.jpg') || confirm('file:///F|/webcomputer/Sites/Lonestar/images/puppies/thumbnails/whitegirl_gif.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/webcomputer/Sites/Lonestar/images/puppies/thumbnails/whitegirl_gif.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///F|/webcomputer/Sites/Lonestar/images/puppies/puppy14.gif');
+App.progressCountCurrent = 18;
+App.batchStatusString = 'puppy14.gif';
+if (!Files.exists('file:///F|/webcomputer/Sites/Lonestar/images/puppies/images/puppy14_gif.jpg') || confirm('file:///F|/webcomputer/Sites/Lonestar/images/puppies/images/puppy14_gif.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/webcomputer/Sites/Lonestar/images/puppies/images/puppy14_gif.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///F|/webcomputer/Sites/Lonestar/images/puppies/thumbnails/puppy14_gif.jpg') || confirm('file:///F|/webcomputer/Sites/Lonestar/images/puppies/thumbnails/puppy14_gif.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/webcomputer/Sites/Lonestar/images/puppies/thumbnails/puppy14_gif.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///F|/webcomputer/Sites/Lonestar/images/puppies/puppy15.gif');
+App.progressCountCurrent = 19;
+App.batchStatusString = 'puppy15.gif';
+if (!Files.exists('file:///F|/webcomputer/Sites/Lonestar/images/puppies/images/puppy15_gif.jpg') || confirm('file:///F|/webcomputer/Sites/Lonestar/images/puppies/images/puppy15_gif.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/webcomputer/Sites/Lonestar/images/puppies/images/puppy15_gif.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///F|/webcomputer/Sites/Lonestar/images/puppies/thumbnails/puppy15_gif.jpg') || confirm('file:///F|/webcomputer/Sites/Lonestar/images/puppies/thumbnails/puppy15_gif.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/webcomputer/Sites/Lonestar/images/puppies/thumbnails/puppy15_gif.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///F|/webcomputer/Sites/Lonestar/images/puppies/halloweenpuppy.gif');
+App.progressCountCurrent = 20;
+App.batchStatusString = 'halloweenpuppy.gif';
+if (!Files.exists('file:///F|/webcomputer/Sites/Lonestar/images/puppies/images/halloweenpuppy_gif.jpg') || confirm('file:///F|/webcomputer/Sites/Lonestar/images/puppies/images/halloweenpuppy_gif.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/webcomputer/Sites/Lonestar/images/puppies/images/halloweenpuppy_gif.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///F|/webcomputer/Sites/Lonestar/images/puppies/thumbnails/halloweenpuppy_gif.jpg') || confirm('file:///F|/webcomputer/Sites/Lonestar/images/puppies/thumbnails/halloweenpuppy_gif.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/webcomputer/Sites/Lonestar/images/puppies/thumbnails/halloweenpuppy_gif.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///F|/webcomputer/Sites/Lonestar/images/puppies/frontpage.gif');
+App.progressCountCurrent = 21;
+App.batchStatusString = 'frontpage.gif';
+if (!Files.exists('file:///F|/webcomputer/Sites/Lonestar/images/puppies/images/frontpage_gif.jpg') || confirm('file:///F|/webcomputer/Sites/Lonestar/images/puppies/images/frontpage_gif.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/webcomputer/Sites/Lonestar/images/puppies/images/frontpage_gif.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///F|/webcomputer/Sites/Lonestar/images/puppies/thumbnails/frontpage_gif.jpg') || confirm('file:///F|/webcomputer/Sites/Lonestar/images/puppies/thumbnails/frontpage_gif.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/webcomputer/Sites/Lonestar/images/puppies/thumbnails/frontpage_gif.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///F|/webcomputer/Sites/Lonestar/images/puppies/frontpage.jpg');
+App.progressCountCurrent = 22;
+App.batchStatusString = 'frontpage.jpg';
+if (!Files.exists('file:///F|/webcomputer/Sites/Lonestar/images/puppies/images/frontpage_jpg.jpg') || confirm('file:///F|/webcomputer/Sites/Lonestar/images/puppies/images/frontpage_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/webcomputer/Sites/Lonestar/images/puppies/images/frontpage_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///F|/webcomputer/Sites/Lonestar/images/puppies/thumbnails/frontpage_jpg.jpg') || confirm('file:///F|/webcomputer/Sites/Lonestar/images/puppies/thumbnails/frontpage_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///F|/webcomputer/Sites/Lonestar/images/puppies/thumbnails/frontpage_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+'done';
